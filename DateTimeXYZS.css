@@ -1,0 +1,188 @@
+/*DateTime容器Div*/
+.dateTimeDivDateTime {
+    border: solid #b1d2ec 1px;
+    text-align: center;
+    vert-align: middle;
+    display: table-cell;
+    overflow: hidden;
+    position: absolute;
+    background: #fff;
+    font-size: 14px;
+    text-indent: 0;
+    font-family: 宋体, 楷体, 微软雅黑;
+    font-weight: normal;
+    color: #000;
+}
+
+/*divContent容器Div*/
+.dateTimeDivContent {
+}
+
+/*divYearChoice容器Div*/
+.dateTimeDateTimeDivYearChoice {
+}
+
+/*divMonthChoice容器Div*/
+.dateTimeDivMonthChoice {
+}
+
+/*divDateChoice容器Div*/
+.dateTimeDivDateChoice {
+}
+
+/*容器Div 公共*/
+.dateTimeDivContainerPublic {
+}
+
+/*小功能容器*/
+.dateTimeDivAssembly {
+    overflow: hidden;
+    border: solid #b1d2ec 1px;
+    text-align: center;
+    vert-align: middle;
+    margin: 5px;
+}
+
+/*年div*/
+.dateTimeDivYear {
+}
+
+/*月div*/
+.dateTimeDivMonth {
+}
+
+/*日div*/
+.dateTimeDivDate {
+}
+
+/*周信息div*/
+.dateTimeDivInformation {
+    color: #1F547E;
+    font-family: 宋体, 楷体, 微软雅黑;
+}
+
+/*按钮div*/
+.dateTimeDivBtn {
+}
+
+/*确定按钮*/
+.dateTimeBtnOk {
+}
+
+/*当前时间按钮*/
+.dateTimeBtnToday {
+}
+
+/*年，左切换*/
+.dateTimeBtnYearLeft {
+}
+
+/*年，文本框*/
+.dateTimeTextYear {
+}
+
+/*年，右切换*/
+.dateTimeBtnYearRight {
+}
+
+/*月，左切换*/
+.dateTimeBtnMonthLeft {
+}
+
+/*月，文本框*/
+.dateTimeTextMonth {
+}
+
+/*月，右切换*/
+.dateTimeBtnMonthRight {
+}
+
+/*日，左切换*/
+.dateTimeBtnDateLeft {
+}
+
+/*日，文本框*/
+.dateTimeTextDate {
+}
+
+/*日，右切换*/
+.dateTimeBtnDateRight {
+}
+
+/*按钮公用*/
+.dateTimeBtn {
+    /*font-size: 14px;*/
+    font-family: 宋体, 楷体;
+    color: #3081C2;
+    background: #DEECF8;
+    border: 1px solid #B1D2EC;
+}
+
+/*text公用*/
+.dateTimeText {
+    width: 50px;
+    height: 22px;
+    margin: 0px 7px;
+    text-align: center;
+    border: solid #b1d2ec 1px;
+    cursor: pointer;
+    color: #1F547E;
+    font-family: 宋体, 楷体, 微软雅黑;
+}
+
+/*左切换按钮公用*/
+.dateTimeBtnLeftSwitch {
+    /*color: #3081C2;*/
+    padding: 1px;
+}
+
+/*右切换按钮公用*/
+.dateTimeBtnRightSwitch {
+    /*color: #3081C2;*/
+    padding: 1px;
+}
+
+/*LEBEL文本*/
+.dateTimeLebel {
+    color: #1F547E;
+}
+
+/*表格*/
+.dateTimeTable {
+    background: #b1d2ec;
+    color: #1F547E;
+    cursor: pointer;
+    border: 1px solid #B1D2EC;
+    /*margin: 5px;*/
+    border-collapse: collapse;
+}
+
+/*表格 td*/
+.dateTimeTable td {
+    border: 1px solid #B1D2EC;
+    background: #fff;
+}
+
+/*表格 th*/
+.dateTimeTable th {
+    font-weight: 400;
+}
+
+/*表格 选中*/
+.tdSelected {
+    background-color: #DEECF8 !important;
+}
+
+/*表格 鼠标上移*/
+.tbOnmousemove {
+    background-color: #ECF4FB !important;
+}
+/*年 表格*/
+.dateTimeTableYear {
+}
+/*月 表格*/
+.dateTimeTableMonth {
+}
+/*日 表格*/
+.dateTimeTableDate {
+}

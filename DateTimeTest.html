@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Domo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        .button input {
+            width: 120px;
+            line-height: 32px;
+            text-align: center;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 1px 1px 1px #333;
+            border-radius: 5px;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid #64c878;
+            background:#90dfa2;
+        }
+
+        .button input:hover {
+        }
+
+        .button input:active {
+            top: 1px;
+            box-shadow: 0 1px 3px #4d7254 inset, 0 3px 0 #fff;
+        }
+    </style>
+</head>
+<body>
+<!--测试一-->
+<div id="MyDate1"></div>
+<!--测试二-->
+<div id="MyDate2" style=" margin: 160px;width: 130px;border: solid #000000 1px;"></div>
+<!--切换格式-->
+<div class='button'>
+    <input id="yyyy" type="button" value="yyyy"/>
+    <input id="yyyyMM" type="button" value="yyyy-MM"/>
+    <input id="yyyyMMdd" type="button" value="yyyy-MM-dd"/>
+</div>
+</body>
+
+<!--<script src="DateTimeXYZS.js"></script>-->
+<!--<script src="DateTimeXYZS.min.js"></script>-->
+<!--<script src="DateTimeXYZS.NoStyle.js"></script>-->
+<script src="DateTimeXYZS.NoStyle.min.js"></script>
+<!--<link rel="stylesheet" href="DateTimeXYZS.css">-->
+<link rel="stylesheet" href="DateTimeXYZS.min.css">
+<script>
+    window.onload = function () {
+        //测试一
+        var date1 = new DateTimeXYZS(document.getElementById("MyDate1"));
+        date1.DateTimeLoad(new Date(2009, 8, 9))
+        //测试二
+        var date = new DateTimeXYZS("MyDate2");
+        date.DateTimeLoad(new Date(2008, 7, 8), function (date) {
+            alert("当前选择时间：" + date.toString())
+        })
+
+        // 切换格式
+        document.getElementById("yyyy").onclick = function () {
+            date.setDateFormat("yyyy")
+        }
+        document.getElementById("yyyyMM").onclick = function () {
+            date.setDateFormat("yyyy-MM")
+        }
+        document.getElementById("yyyyMMdd").onclick = function () {
+            date.setDateFormat("yyyy-MM-dd")
+        }
+    }
+</script>
+</html>
